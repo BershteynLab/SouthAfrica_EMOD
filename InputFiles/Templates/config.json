@@ -336,7 +336,6 @@
 		 "EffectiveART",
 		 "ShouldNotHappen",
        "On_ART",
-       "NewlySymptomatic",
        "NotNewlySymptomatic", 
 	    "Prevent_Dropout_Flag",
        "End_of_Pregnancy_Event",
