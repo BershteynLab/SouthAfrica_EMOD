@@ -10338,11 +10338,6 @@
                         "class":"MultiInterventionDistributor",
                         "Intervention_List": [
                             {
-                                "class": "BroadcastEvent",
-                                "Broadcast_Event": "NewlySymptomatic",
-                                "New_Property_Value": "NewlySymptomatic:Yes"
-                            },		
-                            {
                                 "class": "HIVPiecewiseByYearAndSexDiagnostic",
                                 "Event_Or_Config": "Event",
                                 "Disqualifying_Properties": [
