@@ -16,7 +16,8 @@ Changes that have been made
   "New_Property_Value": "NewlySymptomatic:Yes"
 }
 
-5. Fixed old version of `Delay_Distribution` -> `Delay_Period_Distribution` 
+5. Fixed old version of `Delay_Distribution` -> `Delay_Period_Distribution`
+6. config.json - same issue as 5 ``"Incubation_Period_Distribution": "CONSTANT_DISTRIBUTION", ``
 
 ## Python Script
 
