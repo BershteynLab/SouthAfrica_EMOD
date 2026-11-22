@@ -18,6 +18,7 @@ Changes that have been made
 
 5. Fixed old version of `Delay_Distribution` -> `Delay_Period_Distribution`
 6. config.json - same issue as 5 ``"Incubation_Period_Distribution": "CONSTANT_DISTRIBUTION", ``
+7. optim_script: `Base_Population_Scale_Factor` was renamed -> `x_Base_Population` - too many agents because the scale factor was never properly applied
 
 ## Python Script
 

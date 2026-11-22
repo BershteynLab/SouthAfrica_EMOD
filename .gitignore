@@ -1,3 +1,5 @@
 COMPS_log.log
 post_channel_config.json
 DownloadAnalyzerTPI_cache/
+
+slurm*.out
