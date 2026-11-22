@@ -8314,7 +8314,6 @@
                         "class": "HIVPiecewiseByYearAndSexDiagnostic",
                         "Disqualifying_Properties": [],
                         "New_Property_Value": "",
-                        "Event_Or_Config": "Event",
                         "Interpolation_Order": 1,
                         "Positive_Diagnosis_Event": "Commercial_DelayFromDebutToUptake",
                         "Time_Value_Map": {
@@ -8443,7 +8442,6 @@
                         "Delay_Period_Distribution": "UNIFORM_DISTRIBUTION",
                         "Delay_Period_Max": 1825,
                         "Delay_Period_Min": 0,
-                        "Event_Or_Config": "Event",
                         "Disqualifying_Properties": [],
                         "New_Property_Value": ""
                     }
@@ -8495,7 +8493,6 @@
                         "class": "HIVDelayedIntervention",
                         "Disqualifying_Properties": [],
                         "New_Property_Value": "",
-                        "Event_Or_Config": "Event",
                         "Delay_Period_Distribution": "WEIBULL_DISTRIBUTION",
                         "Delay_Period_Lambda": 2215,
                         "Delay_Period_Kappa": 3.312,
@@ -8593,7 +8590,6 @@
                         "Delay_Period_Distribution": "UNIFORM_DISTRIBUTION",
                         "Delay_Period_Max": 3650,
                         "Delay_Period_Min": 0,
-                        "Event_Or_Config": "Event",
                         "New_Property_Value": ""
                     }
                 }
@@ -8623,7 +8619,6 @@
                         "Delay_Period_Distribution": "UNIFORM_DISTRIBUTION",
                         "Delay_Period_Max": 10950,
                         "Delay_Period_Min": 730,
-                        "Event_Or_Config": "Event",
                         "New_Property_Value": ""
                     }
                 }
@@ -8650,8 +8645,6 @@
                         "Disqualifying_Properties": [
                             "InterventionStatus:LostForever"
                         ],
-                        "Days_To_Diagnosis": 0,
-                        "Event_Or_Config": "Event",
                         "Female_Multiplier": 1,
                         "Interpolation_Order": 0,
                         "Negative_Diagnosis_Event": "HCTUptakePostDebut3",
@@ -8695,8 +8688,6 @@
                         "Disqualifying_Properties": [
                             "InterventionStatus:LostForever"
                         ],
-                        "Days_To_Diagnosis": 0,
-                        "Event_Or_Config": "Event",
                         "Female_Multiplier": 1,
                         "Interpolation_Order": 0,
                         "Negative_Diagnosis_Event": "LostForever0",
@@ -8746,8 +8737,6 @@
                             "InterventionStatus:HCTTestingLoop"
                         ],
                         "New_Property_Value": "InterventionStatus:HCTUptakePostDebut",
-                        "Days_To_Diagnosis": 0,
-                        "Event_Or_Config": "Event",
                         "Female_Multiplier": 1,
                         "Interpolation_Order": 0,
                         "Negative_Diagnosis_Event": "HCTUptakePostDebut1",
@@ -8802,8 +8791,6 @@
                             "InterventionStatus:OnNonSuppressiveART"
                         ],
                         "New_Property_Value": "InterventionStatus:HCTTestingLoop",
-                        "Days_To_Diagnosis": 0,
-                        "Event_Or_Config": "Event",
                         "Female_Multiplier": 1,
                         "Interpolation_Order": 0,
                         "Negative_Diagnosis_Event": "ARTStaging1",
@@ -8855,8 +8842,6 @@
                             "InterventionStatus:HCTTestingLoop"
                         ],
                         "New_Property_Value": "InterventionStatus:HCTUptakePostDebut",
-                        "Days_To_Diagnosis": 0,
-                        "Event_Or_Config": "Event",
                         "Female_Multiplier": 1,
                         "Interpolation_Order": 0,
                         "Negative_Diagnosis_Event": "HCTUptakePostDebut1",
@@ -8911,8 +8896,6 @@
                             "InterventionStatus:OnNonSuppressiveART"
                         ],
                         "New_Property_Value": "InterventionStatus:HCTTestingLoop",
-                        "Days_To_Diagnosis": 0,
-                        "Event_Or_Config": "Event",
                         "Female_Multiplier": 1,
                         "Interpolation_Order": 0,
                         "Negative_Diagnosis_Event": "ARTStaging1",
@@ -8961,8 +8944,6 @@
                             "InterventionStatus:ARTStaging"
                         ],
                         "New_Property_Value": "InterventionStatus:TestingOnSymptomatic",
-                        "Days_To_Diagnosis": 0,
-                        "Event_Or_Config": "Event",
                         "Female_Multiplier": 1,
                         "Interpolation_Order": 0,
                         "Positive_Diagnosis_Event": "ARTStaging2",
@@ -9306,7 +9287,6 @@
                         "Delay_Period_Distribution": "WEIBULL_DISTRIBUTION",
                         "Delay_Period_Lambda": 8539.811524,
                         "Delay_Period_Kappa": 5.4849922,
-                        "Event_Or_Config": "Event",
                         "class": "HIVDelayedIntervention",
                         "Disqualifying_Properties": [],
                         "New_Property_Value": ""
@@ -9364,8 +9344,7 @@
                         "Distributed_Event_Trigger": "Received_Traditional_MC",
                         "Intervention_Name": "Traditional_MC",
                         "Delay_Period_Distribution": "CONSTANT_DISTRIBUTION",
-                        "Delay_Period_Constant": 36500,
-                        "Event_Or_Config": "Event"
+                        "Delay_Period_Constant": 36500
                     }
                 }
             },
@@ -13224,8 +13203,6 @@
                             "InterventionStatus:ARTStaging"
                         ],
                         "New_Property_Value": "InterventionStatus:HCTUptakeAtDebut",
-                        "Days_To_Diagnosis": 0,
-                        "Event_Or_Config": "Event",
                         "Female_Multiplier": 1,
                         "Negative_Diagnosis_Event": "HCTUptakePostDebut1",
                         "Positive_Diagnosis_Event": "HCTTestingLoop0",
@@ -13366,9 +13343,7 @@
                             "InterventionStatus:HCTTestingLoop"
                         ],
                         "New_Property_Value": "InterventionStatus:HCTUptakePostDebut",
-                        "Days_To_Diagnosis": 0,
                         "Default_Value": 0,
-                        "Event_Or_Config": "Event",
                         "Female_Multiplier": 1,
                         "Negative_Diagnosis_Event": "HCTUptakePostDebut7",
                         "Positive_Diagnosis_Event": "HCTTestingLoop0",
@@ -13469,7 +13444,6 @@
                     ],
                     "Actual_IndividualIntervention_Config": {
                         "class": "HIVRapidHIVDiagnostic",
-                        "Event_Or_Config": "Event",
                         "Negative_Diagnosis_Event": "HCTTestingLoop0",
                         "Positive_Diagnosis_Event": "ARTStaging9",
                         "Disqualifying_Properties": [
@@ -13501,7 +13475,7 @@
                     "class": "NodeLevelHealthTriggeredIV",
                     "New_Property_Value": "",
                     "Trigger_Condition_List": [
-                        "HIVSymptomatic"
+                        "NewlySymptomatic"
                     ],
                     "Actual_IndividualIntervention_Config__KP_Sympt_Link": "<-- MARKER",
                     "Actual_IndividualIntervention_Config": {
@@ -13509,7 +13483,6 @@
                         "Intervention_List": [
                             {
                                 "class": "HIVPiecewiseByYearAndSexDiagnostic",
-                                "Event_Or_Config": "Event",
                                 "Disqualifying_Properties": [
                                     "InterventionStatus:LostForever",
                                     "InterventionStatus:OnEffectiveART",
@@ -13609,7 +13582,6 @@
                     ],
                     "Actual_IndividualIntervention_Config": {
                         "class": "HIVPiecewiseByYearAndSexDiagnostic",
-                        "Event_Or_Config": "Event",
                         "Interpolation_Order": 1,
                         "Positive_Diagnosis_Event": "Needs_PMTCT_Diagnostic_Test",
                         "Disqualifying_Properties": [
@@ -13675,7 +13647,6 @@
                         "Needs_PMTCT_Diagnostic_Test"
                     ],
                     "Actual_IndividualIntervention_Config": {
-                        "Event_Or_Config": "Event",
                         "Positive_Diagnosis_Event": "HIV_Positive_at_ANC",
                         "class": "HIVRapidHIVDiagnostic",
                         "Disqualifying_Properties": [
@@ -13710,7 +13681,6 @@
                     ],
                     "Actual_IndividualIntervention_Config": {
                         "class": "HIVPiecewiseByYearAndSexDiagnostic",
-                        "Event_Or_Config": "Event",
                         "Interpolation_Order": 1,
                         "Disqualifying_Properties": [
                             "InterventionStatus:LostForever",
@@ -13787,7 +13757,6 @@
                     ],
                     "Actual_IndividualIntervention_Config": {
                         "class": "HIVSigmoidByYearAndSexDiagnostic",
-                        "Event_Or_Config": "Event",
                         "Negative_Diagnosis_Event": "Needs_Combination_PMTCT",
                         "Positive_Diagnosis_Event": "Needs_sdNVP_PMTCT",
                         "Ramp_Max": 1,
@@ -13848,7 +13817,6 @@
                     ],
                     "Actual_IndividualIntervention_Config": {
                         "class": "HIVPiecewiseByYearAndSexDiagnostic",
-                        "Event_Or_Config": "Event",
                         "Interpolation_Order": 0,
                         "Negative_Diagnosis_Event": "Needs_Option_A",
                         "Positive_Diagnosis_Event": "Needs_Option_B",
@@ -13943,8 +13911,6 @@
                     ],
                     "Actual_IndividualIntervention_Config": {
                         "class": "HIVPiecewiseByYearAndSexDiagnostic",
-                        "Days_To_Diagnosis": 0,
-                        "Event_Or_Config": "Event",
                         "Female_Multiplier": 1,
                         "Interpolation_Order": 1,
                         "Positive_Diagnosis_Event": "ARTStaging0",
@@ -13998,7 +13964,6 @@
                     ],
                     "Actual_IndividualIntervention_Config": {
                         "class": "HIVRapidHIVDiagnostic",
-                        "Event_Or_Config": "Event",
                         "Negative_Diagnosis_Event": "ARTStaging8",
                         "Positive_Diagnosis_Event": "ARTStaging1",
                         "Disqualifying_Properties": [
@@ -14104,7 +14069,6 @@
                     ],
                     "Actual_IndividualIntervention_Config": {
                         "class": "HIVDrawBlood",
-                        "Event_Or_Config": "Event",
                         "Positive_Diagnosis_Event": "ARTStaging4",
                         "Disqualifying_Properties": [
                             "InterventionStatus:LostForever",
@@ -14194,7 +14158,6 @@
                                 5
                             ]
                         },
-                        "Event_Or_Config": "Event",
                         "NOTE1": "Threshold for adult vs child guidelines",
                         "Negative_Diagnosis_Event": "ARTStaging5",
                         "Positive_Diagnosis_Event": "LinkingToART0",
@@ -14274,7 +14237,6 @@
                             "InterventionStatus:OnPreART",
                             "InterventionStatus:LinkingToPreART"
                         ],
-                        "Event_Or_Config": "Event",
                         "If_Active_TB": {
                             "Times": [
                                 2010.34
@@ -14332,8 +14294,6 @@
                     ],
                     "Actual_IndividualIntervention_Config": {
                         "class": "HIVSigmoidByYearAndSexDiagnostic",
-                        "Days_To_Diagnosis": 0,
-                        "Event_Or_Config": "Event",
                         "Female_Multiplier": 1,
                         "Negative_Diagnosis_Event": "HCTUptakePostDebut9",
                         "Positive_Diagnosis_Event": "OnPreART0",
@@ -14505,7 +14465,6 @@
                                 5
                             ]
                         },
-                        "Event_Or_Config": "Event",
                         "NOTE1": "Threshold for adult vs child guidelines",
                         "Negative_Diagnosis_Event": "OnPreART3",
                         "Positive_Diagnosis_Event": "OnART0",
@@ -14531,7 +14490,6 @@
                     ],
                     "Actual_IndividualIntervention_Config": {
                         "class": "HIVDrawBlood",
-                        "Event_Or_Config": "Event",
                         "Positive_Diagnosis_Event": "OnPreART4",
                         "Disqualifying_Properties": [
                             "InterventionStatus:LostForever",
@@ -14568,7 +14526,6 @@
                             "InterventionStatus:LinkingToART"
                         ],
                         "New_Property_Value": "InterventionStatus:OnPreART",
-                        "Event_Or_Config": "Event",
                         "If_Active_TB": {
                             "Times": [
                                 2010.34
@@ -14630,8 +14587,6 @@
                             "InterventionStatus:OnEffectiveART",
                             "InterventionStatus:OnNonSuppressiveART"
                         ],
-                        "Days_To_Diagnosis": 0,
-                        "Event_Or_Config": "Event",
                         "Female_Multiplier": 1,
                         "Negative_Diagnosis_Event": "HCTUptakePostDebut3",
                         "Positive_Diagnosis_Event": "OnART0",
@@ -15318,7 +15273,6 @@
                         "LostForever0"
                     ],
                     "Actual_IndividualIntervention_Config": {
-                        "Event_Or_Config": "Event",
                         "Positive_Diagnosis_Event": "LTFU0",
                         "class": "PropertyValueChanger",
                         "Disqualifying_Properties": [],

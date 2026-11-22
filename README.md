@@ -19,7 +19,10 @@ Changes that have been made
 5. Fixed old version of `Delay_Distribution` -> `Delay_Period_Distribution`
 6. config.json - same issue as 5 ``"Incubation_Period_Distribution": "CONSTANT_DISTRIBUTION", ``
 7. optim_script: `Base_Population_Scale_Factor` was renamed -> `x_Base_Population` - too many agents because the scale factor was never properly applied
-8. Campaign files: updated HIVRandomChoice to have correct syntax
+8. Campaign files:
+   1. updated HIVRandomChoice to have correct syntax
+   2. Removed outdated Event_or_Config
+9. config.json: added five missing parameters with no defaults
 
 ## Python Script
 
